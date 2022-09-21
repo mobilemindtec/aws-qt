@@ -1,0 +1,14 @@
+#ifndef AWSQTMIME_H
+#define AWSQTMIME_H
+
+#include "awsaccount.h"
+#include "awsapiauth.h"
+#include "awshttp.h"
+#include "sesjsonprocessor.h"
+#include "sqsjsonprocessor.h"
+#include "sqsmessage.h"
+#include "sqsmessageses.h"
+#include "sqsmessagedeleteresult.h"
+#include "sqsmessagedeleteresultitem.h"
+
+#endif // AWSQTMIME_H

@@ -1,0 +1,7 @@
+*.stash
+*.o
+*.so*
+moc_*.cpp
+moc_*.h
+*.pro.user*
+Makefile

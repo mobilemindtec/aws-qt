@@ -1,0 +1,5 @@
+#!/bin/bash
+
+qmake AwsQt.pro -spec linux-g++
+make clean && make  && make install
+

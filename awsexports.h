@@ -1,0 +1,11 @@
+#ifndef AWSEXPORTS_H
+#define AWSEXPORTS_H
+
+#ifdef AWSQT_BUILD
+#define AWSQT_EXPORT Q_DECL_EXPORT
+#else
+#define AWSQT_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // AWSEXPORTS_H
+
